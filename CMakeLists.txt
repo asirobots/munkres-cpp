@@ -24,7 +24,7 @@ set (
     ${PROJECT_SOURCE_DIR}/src/matrix.h
     ${PROJECT_SOURCE_DIR}/src/matrix.cpp
     ${PROJECT_SOURCE_DIR}/src/munkres.h
-
+    ${PROJECT_SOURCE_DIR}/src/adapters/boostmatrixadapter.h
 )
 
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/adapters)
